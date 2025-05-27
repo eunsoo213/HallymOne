@@ -13,6 +13,12 @@
         android:theme="@style/Theme.HallymOne"
         tools:targetApi="31">
         <activity
+            android:name=".CreditmainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreditActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.hallymone.mainscreen.MainScreenActivity"
             android:exported="false" />
         <!-- 메인 런처 액티비티 -->
@@ -34,6 +40,8 @@
 
 
         <activity android:name=".MainActivity" android:exported="false"/>
+
+        <activity android:name=".ui.schedule.CreditMainActivity" android:exported="false"/>
 
     </application>
 
