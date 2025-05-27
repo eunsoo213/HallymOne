@@ -1,4 +1,4 @@
-package com.example.hallymone
+package com.example.hallymone.mainscreen
 
 import android.content.Intent
 import android.os.Bundle
