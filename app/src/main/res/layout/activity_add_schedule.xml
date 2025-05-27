@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ① 날짜 선택 -->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- ② 과목 선택 -->
+    <Spinner
+        android:id="@+id/spinnerCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <!-- ③ 일정 내용 입력 -->
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="일정 내용"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="16dp"/>
+
+    <!-- ④ 저장 버튼 -->
+    <Button
+        android:id="@+id/btnSaveSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저장"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

@@ -13,10 +13,11 @@
         android:theme="@style/Theme.HallymOne"
         tools:targetApi="31">
         <activity
-            android:name="com.example.hallymone.MainScreenActivity"
+            android:name="com.example.hallymone.mainscreen.MainScreenActivity"
             android:exported="false" />
+        <!-- 메인 런처 액티비티 -->
         <activity
-            android:name=".MainActivity"
+            android:name=".login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +25,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- 과목 추가 액티비티 -->
+        <activity
+            android:name=".ui.schedule.AddCourseActivity"
+            android:exported="false" />
+        <activity android:name=".ui.schedule.AddScheduleActivity" />
+
+
+        <activity android:name=".MainActivity" android:exported="false"/>
+
     </application>
 
 </manifest>
