@@ -8,6 +8,7 @@ import com.example.hallymone.CreditmainActivity
 import com.example.hallymone.R
 
 import com.example.hallymone.MainActivity
+import com.example.hallymone.qrcode.QrcodeActivity
 
 
 class MainScreenActivity : AppCompatActivity() {
@@ -29,6 +30,12 @@ class MainScreenActivity : AppCompatActivity() {
         // 일정 버튼 클릭 시 이동
         btnSchedule.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        // 전자출결 버튼 클릭 시 이동
+        btnQR.setOnClickListener {
+            val intent = Intent(this, QrcodeActivity::class.java)
             startActivity(intent)
         }
 
