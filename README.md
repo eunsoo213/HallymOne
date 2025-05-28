@@ -8,6 +8,10 @@
  20212361 정은수<br>
  20216602 곽형진<br>
 
+## 설치 방법
+아래 링크에서 APK 파일 다운로드  
+ https://github.com/eunsoo213/HallymOne/blob/master/app/release/app-release.apk
+
 
 ## 앱 설계 및 구현
 
